@@ -71,8 +71,8 @@ body{
   justify-content: space-between;
   align-items: center;
 }
-.btn:hover{
-  background-color: yellow;
+.btn.facebook:hover{
+  background-color:rgb(72,118,255);
   border-bottom: none;
   border-right: none;
 }
@@ -88,17 +88,32 @@ body{
   color: blueviolet;
   font-weight: bolder;
 }
+.instagram:hover {
+  background-color:rgb(155, 48,255);
+  border-bottom:none;
+  border-right:none;
+}
 .phone a{
   text-decoration: none;
   font-size: 30px;
   color: #61F054;
   font-weight: bolder;
 }
+.btn.phone:hover{ 
+  background-color: rgb(125,255,0);
+  border-bottom:none;
+  border-right:none;
+}
 .github a{
   text-decoration: none;
   font-size: 30px;
   color: black;
   font-weight: bolder;
+}
+.btn.github:hover{
+  background-color:  rgb(79,79,79);
+  border-bottom:none;
+  border-right:none;
 }
 .content img{
   border-radius: 200px;
