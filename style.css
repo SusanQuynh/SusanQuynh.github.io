@@ -59,8 +59,10 @@ body{
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* Làm mờ */
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  /*  */
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 10px solid gray;
   border-right: 10px solid gray;
@@ -72,26 +74,48 @@ body{
   align-items: center;
 }
 .btn.facebook:hover{
-  background-color:rgb(72,118,255);
+  box-shadow: 0 0 7em .25em rgb(0, 0, 225),
+              0 0 4em 1em white,
+              inset 0 0 .75em .25em rgb(128, 128, 255);
+  background-color:rgb(102,102,255);
   border-bottom: none;
   border-right: none;
 }
+
+.facebook a:hover{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;}
+
 .facebook a{
   text-decoration: none;
   font-size: 30px;
   color: blue;
   font-weight: bolder;
 }
+
+
 .instagram a{
   text-decoration: none;
   font-size: 30px;
-  color: blueviolet;
+  color: linear;
   font-weight: bolder;
 }
-.instagram:hover {
+
+.btn.instagram:hover {
+  box-shadow: 0 0 7em .25em rgb(92, 0, 197),
+              0 0 4em 1em white,
+              inset 0 0 .75em .25em rgb(143, 23, 255);
   background-color:rgb(155, 48,255);
   border-bottom:none;
   border-right:none;
+}
+.instagram a:hover{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
 }
 .phone a{
   text-decoration: none;
@@ -100,9 +124,15 @@ body{
   font-weight: bolder;
 }
 .btn.phone:hover{ 
-  background-color: rgb(125,255,0);
+  background-color: rgb(204, 255, 204);
   border-bottom:none;
   border-right:none;
+}
+.phone a:hover{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
 }
 .github a{
   text-decoration: none;
@@ -114,6 +144,12 @@ body{
   background-color:  rgb(79,79,79);
   border-bottom:none;
   border-right:none;
+}
+.github a:hover{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
 }
 .content img{
   border-radius: 200px;
