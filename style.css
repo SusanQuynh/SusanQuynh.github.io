@@ -74,15 +74,15 @@ body{
   align-items: center;
 }
 .btn.facebook:hover{
-  box-shadow: 0 0 7em .25em rgb(0, 0, 225),
+  box-shadow: 0 0 7em .25em rgb(0, 13, 142),
               0 0 4em 1em white,
-              inset 0 0 .75em .25em rgb(128, 128, 255);
-  background-color:rgb(102,102,255);
+              inset 0 0 .75em .25em rgb(77, 77, 255);
+  background-color:rgb(102, 102, 255);
   border-bottom: none;
   border-right: none;
 }
 
-.facebook a:hover{
+.btn:hover a{
   text-decoration: none;
   font-size: 30px;
   color: white;
@@ -91,7 +91,7 @@ body{
 .facebook a{
   text-decoration: none;
   font-size: 30px;
-  color: blue;
+  color: rgb(0,0,225);
   font-weight: bolder;
 }
 
@@ -111,28 +111,19 @@ body{
   border-bottom:none;
   border-right:none;
 }
-.instagram a:hover{
-  text-decoration: none;
-  font-size: 30px;
-  color: white;
-  font-weight: bolder;
-}
 .phone a{
   text-decoration: none;
   font-size: 30px;
-  color: #61F054;
+  color: rgb(98,240,85);
   font-weight: bolder;
 }
 .btn.phone:hover{ 
-  background-color: rgb(204, 255, 204);
+  box-shadow: 0 0 7em .25em rgb(0, 155, 0),
+              0 0 4em 1em rgb(54, 240, 37),
+              inset 0 0 .75em .25em rgb(120, 240, 109);
+  background-color: rgb(164, 240, 157);
   border-bottom:none;
   border-right:none;
-}
-.phone a:hover{
-  text-decoration: none;
-  font-size: 30px;
-  color: white;
-  font-weight: bolder;
 }
 .github a{
   text-decoration: none;
@@ -144,12 +135,6 @@ body{
   background-color:  rgb(79,79,79);
   border-bottom:none;
   border-right:none;
-}
-.github a:hover{
-  text-decoration: none;
-  font-size: 30px;
-  color: white;
-  font-weight: bolder;
 }
 .content img{
   border-radius: 200px;
@@ -182,6 +167,11 @@ body{
     margin: 30px;
     padding: 10px;
   }
+  .btn.facebook:hover{
+    color: ;  
+  }
+  
+  }
   .facebook a{
     text-decoration: none;
     font-size: 15px;
@@ -211,4 +201,5 @@ body{
     width: 25px;
     height: 25px;
   }
-  }
+  
+
