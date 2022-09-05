@@ -74,12 +74,17 @@ body{
   align-items: center;
 }
 .btn.facebook:hover{
-  box-shadow: 0 0 7em .25em rgb(0, 13, 142),
-              0 0 4em 1em white,
+  box-shadow: 0 0 1em .25em rgb(67, 78, 226),
+              0 0 4em 1em rgb(77, 77, 255),
               inset 0 0 .75em .25em rgb(77, 77, 255);
   background-color:rgb(102, 102, 255);
   border-bottom: none;
   border-right: none;
+}
+.btn.facebook:active{
+  box-shadow: 0 0 0.6em .25em rgb(67, 78, 226),
+              0 0 2.5em 2em rgb(77, 77, 255),
+              inset 0 0 .5em .25em rgb(77, 77, 255) ;
 }
 
 .btn:hover a{
@@ -104,12 +109,17 @@ body{
 }
 
 .btn.instagram:hover {
-  box-shadow: 0 0 7em .25em rgb(92, 0, 197),
-              0 0 4em 1em white,
+  box-shadow: 0 0 1em .25em rgb(124, 0, 226),
+              0 0 4em 1em rgb(143, 23, 255),
               inset 0 0 .75em .25em rgb(143, 23, 255);
   background-color:rgb(155, 48,255);
   border-bottom:none;
   border-right:none;
+}
+.btn.instagram:active{
+  box-shadow: 0 0 0.6em .25em rgb(124, 0, 226),
+              0 0 2.5em 2em rgb(143, 23, 255),
+              inset 0 0 .5em .25em rgb(143, 23, 255);;
 }
 .phone a{
   text-decoration: none;
@@ -118,12 +128,17 @@ body{
   font-weight: bolder;
 }
 .btn.phone:hover{ 
-  box-shadow: 0 0 7em .25em rgb(0, 155, 0),
-              0 0 4em 1em rgb(54, 240, 37),
-              inset 0 0 .75em .25em rgb(120, 240, 109);
-  background-color: rgb(164, 240, 157);
+  box-shadow: 0 0 1em .25em rgb(89, 211, 82),
+              0 0 4em 1em rgb(76, 240, 61),
+              inset 0 0 .75em .25em rgb(76, 240, 61);
+  background-color: rgb(120, 240, 109);
   border-bottom:none;
   border-right:none;
+}
+.btn.phone:active{
+  box-shadow: 0 0 .6em .25em rgb(89, 211, 82),
+              0 0 2.5em 2em rgb(76, 240, 61),
+              inset 0 0 .5em .25em rgb(76, 240, 61);
 }
 .github a{
   text-decoration: none;
@@ -132,9 +147,17 @@ body{
   font-weight: bolder;
 }
 .btn.github:hover{
+  box-shadow: 0 0 1em .25em rgb(56, 56, 56),
+              0 0 4em 1em rgb(79, 71, 71),
+              inset 0 0 .75em .25em rgba(79, 71, 71);
   background-color:  rgb(79,79,79);
   border-bottom:none;
   border-right:none;
+}
+.btn.github:active{
+  box-shadow: 0 0 0.6em .25em rgb(56, 56, 56),
+              0 0 2.5em 2em rgb(79, 71, 71),
+              inset 0 0 .5em .25em rgba(79, 71, 71);
 }
 .content img{
   border-radius: 200px;
@@ -202,4 +225,5 @@ body{
     height: 25px;
   }
   
+
 
