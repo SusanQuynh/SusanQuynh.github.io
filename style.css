@@ -5,7 +5,8 @@
   margin: 0 auto;
 }
 body{
-  background-image: linear-gradient(to right, powderblue,pink);
+  background-image: linear-gradient(to right, rgba(151,151,241,255),rgba(251,199,212,255)
+);
 }
 .image-and-name img{
   width: 300px;
