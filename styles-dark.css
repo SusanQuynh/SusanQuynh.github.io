@@ -1,0 +1,237 @@
+*{
+  font-family: sans-serif;
+  font-size: normal;
+  transition: all 0.5s ease;
+  margin: 0 auto;
+}
+body{
+  background-image: linear-gradient(to right,black,powderblue);
+}
+.image-and-name img{
+  width: 300px;
+  height: 300px;
+  border: 10px solid powderblue;
+  border-radius: 200px;
+  margin: 10px;
+}
+.name{
+  font-size: 40px;
+  margin: 20px;
+}
+.image-and-name{
+  /* border: 5px solid black; */
+  text-align: center;
+  width: 50%;
+ 
+}
+.description{
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 60%;
+  height: 100px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+#feature {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  justify-content: flex-start space-around ;
+}
+.description p:nth-child(2)
+{
+  font-style: italic;
+}
+.content{
+  width: 50%;
+  /* From https://css.glass */
+  
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+ 
+}
+.btn{
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* Làm mờ */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /*  */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 10px solid gray;
+  border-right: 10px solid gray;
+  margin: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn.facebook:hover{
+  box-shadow: 0 0 1em .25em rgb(67, 78, 226),
+              0 0 4em 1em rgb(77, 77, 255),
+              inset 0 0 .75em .25em rgb(77, 77, 255);
+  background-color:rgb(102, 102, 255);
+  border-bottom: none;
+  border-right: none;
+}
+.btn.facebook:active{
+  box-shadow: 0 0 0.6em .25em rgb(67, 78, 226),
+              0 0 2.5em 2em rgb(77, 77, 255),
+              inset 0 0 .5em .25em rgb(77, 77, 255) ;
+}
+
+.btn:hover a{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;}
+
+.facebook a{
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0,0,225);
+  font-weight: bolder;
+}
+
+
+.instagram a{
+  text-decoration: none;
+  font-size: 30px;
+  color: linear;
+  font-weight: bolder;
+}
+
+.btn.instagram:hover {
+  box-shadow: 0 0 1em .25em rgb(124, 0, 226),
+              0 0 4em 1em rgb(143, 23, 255),
+              inset 0 0 .75em .25em rgb(143, 23, 255);
+  background-color:rgb(155, 48,255);
+  border-bottom:none;
+  border-right:none;
+}
+.btn.instagram:active{
+  box-shadow: 0 0 0.6em .25em rgb(124, 0, 226),
+              0 0 2.5em 2em rgb(143, 23, 255),
+              inset 0 0 .5em .25em rgb(143, 23, 255);;
+}
+.phone a{
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(98,240,85);
+  font-weight: bolder;
+}
+.btn.phone:hover{ 
+  box-shadow: 0 0 1em .25em rgb(89, 211, 82),
+              0 0 4em 1em rgb(76, 240, 61),
+              inset 0 0 .75em .25em rgb(76, 240, 61);
+  background-color: rgb(120, 240, 109);
+  border-bottom:none;
+  border-right:none;
+}
+.btn.phone:active{
+  box-shadow: 0 0 .6em .25em rgb(89, 211, 82),
+              0 0 2.5em 2em rgb(76, 240, 61),
+              inset 0 0 .5em .25em rgb(76, 240, 61);
+}
+.github a{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+}
+.btn.github:hover{
+  box-shadow: 0 0 1em .25em rgb(56, 56, 56),
+              0 0 4em 1em rgb(79, 71, 71),
+              inset 0 0 .75em .25em rgba(79, 71, 71);
+  background-color:  rgb(79,79,79);
+  border-bottom:none;
+  border-right:none;
+}
+.btn.github:active{
+  box-shadow: 0 0 0.6em .25em rgb(56, 56, 56),
+              0 0 2.5em 2em rgb(79, 71, 71),
+              inset 0 0 .5em .25em rgba(79, 71, 71);
+}
+.content img{
+  border-radius: 200px;
+}
+/* moible */
+@media only screen and (max-width:46.187em){
+  .image-and-name img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 200px;
+    margin: 10px;
+  }
+  .name{
+    font-size: 18px;
+    margin: 15px;
+  }
+ 
+  .description{
+    height: 50px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .description button {
+    margin-left: 230px;
+    margin-top: -25px;
+  }
+  .contact {
+    margin-top: -30px;
+  }
+  .content{
+    width: 90%;
+    align-content: flex-start;
+    align-items: center;
+  }
+  .btn{
+    margin: 30px;
+    padding: 10px;
+  }
+  .btn:hover a{
+    font-size: 15px;}
+  .facebook a{
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+    font-weight: bolder;
+  }
+  .instagram a{
+    text-decoration: none;
+    font-size: 15px;
+    color: blueviolet;
+    font-weight: bolder;
+  }
+  .phone a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #61F054;
+    font-weight: bolder;
+  }
+  .github a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+  }
+  .content img{
+    border-radius: 200px;
+    width: 25px;
+    height: 25px;
+  }
