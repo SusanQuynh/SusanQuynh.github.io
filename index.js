@@ -3,9 +3,10 @@ function switchMode() {
     const isToggle = x.classList.toggle("fa-moon");
     if (isToggle) {
         const y = document.querySelector("link")
-        y.href = "style.css";
+        y.href = "styles-dark.css";
     } else {
         const y = document.querySelector("link")
-        y.href = "styles-dark.css";
+        y.href = "style.css";
     }
 }
+
